@@ -150,3 +150,30 @@ yorumlanır.
 4. Çıktılar `results/` altına kaydedilir
 
 
+## 10) Ortam Kurulumu, Bağımlılıklar ve Çalıştırma Talimatları
+
+Bu projede kullanılan tüm yazılım bağımlılıkları, deneylerin tekrarlanabilirliği ve farklı sistemlerde sorunsuz çalıştırılabilmesi amacıyla açıkça tanımlanmıştır. Proje, Python tabanlı olup PyTorch ve PyTorch Geometric (PyG) kütüphaneleri üzerine kuruludur.
+
+> Not: Bu çalışma bir **regresyon problemi** olduğu için sınıflandırma problemlerinde kullanılan accuracy, IoU, Dice, F1 gibi metrikler yerine **MAE, RMSE ve R²** metrikleri kullanılmıştır.
+
+### Kullanılan Kütüphaneler
+Projede kullanılan başlıca kütüphaneler aşağıda listelenmiştir:
+
+- `numpy`
+- `pandas`
+- `scikit-learn`
+- `matplotlib`
+- `tqdm`
+- `torch`
+- `torchvision`
+- `torchaudio`
+- `torch-geometric`
+- `pyg-lib`
+- `torch-scatter`
+- `torch-sparse`
+- `torch-cluster`
+- `torch-spline-conv`
+
+Bu kütüphanelerin tamamı **requirements.txt** dosyasında tanımlanmıştır.
+(https://colab.research.google.com/drive/1cHHfft-bCmLgkF6RgUQ5PwSNX3_cDMUf#scrollTo=3AKBtqzxNIyo)
+---
